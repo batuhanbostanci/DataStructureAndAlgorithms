@@ -3,7 +3,7 @@
 
 int tower_of_honai(int n, int A, int B, int C)
 {
-    
+
     if(n>0)
     {
         tower_of_honai(n-1,A,C,B); 
