@@ -3,7 +3,9 @@
 
 //for binary search the array must be sorted becasue its divide the list 2, an in every time it is going to divide it 
 //self again 2 that's way we need to divide the list 
-
+//
+//Best time complaxity is O(1)
+//Worst case time complaxity is O(log n)
 struct Array 
 {
  int A[10];
@@ -24,7 +26,7 @@ void swap(int *x, int *y){
     *y=temp;
 };
 
-int Recursion_binary_search(int array[],int l,int h, int key)
+int Recursion_binary_search(int array[],int l,int h, int key)//recursive version
 {
   int mid = (l+h)/2;
     if(l<=h)
@@ -67,7 +69,7 @@ int Binary_search(struct Array array,int key)//normal
     return -1;
 }
 int main()
-{
+{ 
      struct Array array={{1,2,3,4,5},10,5};
      printf("%d ", Recursion_binary_search(array.A,0,array.length,90));
     return 0;
