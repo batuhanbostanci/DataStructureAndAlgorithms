@@ -1,0 +1,32 @@
+
+
+
+Critera for Analysis
+
+1. Number of Comparision
+2. Number of Swaps
+3. Adaptive // If the list is already sorted that means the list is Adaptive
+4. Stable // If there is dupclite elements in the list that means this is stable. We gotta take first element after that 
+second one should come in the order list. *Mostly it used in the databases or special algorihtms
+5. Extra Memory
+
+
+----------------------------------
+*************
+-Bubble
+-Insertion     -> O(n square)
+-Selection
+*************
+-Heap Sort
+-Merge Sort    -> O(n log n)             ===>Comparision based sort 
+-Quick Sort
+-Tree Sort
+*************
+-Shell Sort    -> O(n square 3/2)
+---------------------------------
+
+---------------------------------
+-Count Sort
+-Bucket/Bin Sort  ->O(n)        ===>Index based sort 
+-Radix Sort
+---------------------------------
