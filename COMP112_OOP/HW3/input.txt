@@ -1,0 +1,6 @@
+Cylinder,3,3
+Cone,3,3
+Cube,3
+RectangularPrism,3,5,9
+TriangularPrism,3,10
+ParallelogramPrism,3,10

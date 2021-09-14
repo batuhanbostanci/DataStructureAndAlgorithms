@@ -15,6 +15,6 @@ int main()
     int A[5] = {1,2,3,4,5}; //stack
     int *p;
     p=(int *)malloc(5*sizeof(int)); // heap memory 
-    
+
     return 0;
 }
